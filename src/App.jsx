@@ -4,11 +4,10 @@ import light from "../src/assets/darkMode/light.webp";
 import dark from "../src/assets/darkMode/dark.webp";
 import Footer from "./components/Footer.component";
 import HeroSection from "./components/HeroSection.component.jsx";
-import MyProjects from "./components/MyProjects.component.jsx";
-import MyFormation from "./components/MyFormation.component.jsx";
 import AboutMe from "./components/AboutMe.component.jsx";
 import ContactMe from "./components/ContactMe.component.jsx";
 import Abilities from "./components/Abilities.component.jsx";
+import MyWork from "./components/MyWork.component";
 import Navigation from "./components/Navigation.component.jsx";
 
 function MyExperience () {
@@ -66,9 +65,8 @@ function App () {
                 <div className='container mx-auto grid w-11/12 max-w-5xl gap-20'>
                     <HeroSection />
                     <Abilities />
-                    <MyProjects />
                     <MyExperience />
-                    <MyFormation />
+                    <MyWork />
                     <AboutMe />
                     <ContactMe />
                 </div>
