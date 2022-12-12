@@ -44,7 +44,7 @@ function App () {
             className="rounded-full bg-black p-1 transition duration-1000 dark:border-white dark:bg-white text-sm text-white dark:text-black group h-12 w-12 flex items-center justify-center"
             aria-label="CV download button">
             <a
-              href="https://drive.google.com/file/d/1RMB16tCn0se394xTPkDJrVKG6rccGfC9/view?usp=share_link"
+              href="https://drive.google.com/file/d/1ZimWW65ydv1SmHW1a4o6GV_Ul03M0jwS/view?usp=share_link"
               target="_blank"
               className="flex flex-col justify-center"
               aria-label="Link to my Curriculum Vitae">
