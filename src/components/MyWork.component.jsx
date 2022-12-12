@@ -5,14 +5,20 @@ import SectionTitle from './SectionTitle'
 
 function MyWork() {
     return (
-        <div>
-            <SectionTitle>My Experience</SectionTitle>
-            <div className='grid gap-4 md:grid-cols-2'>
-                {workExperience.map((e, idx) => (
-                    <CardExperience key={idx} logo={e.logo} time={e.time} p1={e.p1} p2={e.p2}/>
-                ))}
-            </div>
+      <div>
+        <SectionTitle>My Experience</SectionTitle>
+        <div className="grid gap-4 md:grid-cols-2">
+          {workExperience.map((e, idx) => (
+            <CardExperience
+              key={idx}
+              title={e.title}
+              time={e.time}
+              p1={e.p1}
+              p2={e.p2}
+            />
+          ))}
         </div>
+      </div>
     );
 }
 

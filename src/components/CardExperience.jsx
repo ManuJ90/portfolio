@@ -1,20 +1,17 @@
 import React from "react";
 
-function CardExperience({logo, time, p1, p2}) {
-    return (
-        <div className="grid grid-cols-1 items-center gap-7 rounded-3xl border-2 p-9">
-
-            <img src={logo} alt='' className='h-fit w-fit place-self-center'/>
-
-            <h2 className='text-black font-ptSans dark:text-white'>{time}</h2>
-
-            <div className=''>
-                <p className='text-lg text-black font-ptSans dark:text-white'>{p1}</p>
-                <br/>
-                <p className="text-lg text-black font-ptSans dark:text-white">{p2}</p>
-            </div>
-        </div>
-    );
+function CardExperience({ title, time, p1, p2 }) {
+  return (
+    <div className="font-ptSans text-black dark:text-white flex flex-col gap-3">
+      <h3 className="text-2xl font-bold">{title}</h3>
+      <h3 className="text-sm">{time}</h3>
+      <div>
+        <p className="text-lg">{p1}</p>
+        <br />
+        <p className="text-lg">{p2}</p>
+      </div>
+    </div>
+  );
 }
 
 export default CardExperience;
