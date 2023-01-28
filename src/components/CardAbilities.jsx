@@ -1,31 +1,30 @@
 import React from "react";
 
-function CardAbilities({img, title, subtitle, text}) {
-    return (
-        <div
-            className='relative grid transform content-start items-center justify-items-center transition-all duration-700 ease-in-out group'>
-            <div
-                className='absolute -inset-0.5 bg-gradient-to-r from-imperial via-scarlet to-crimson opacity-50 rounded-3xl blur-sm group-hover:blur-md transition duration-1000 group-hover:duration-700 group-hover:-inset-1 animate-tilt'></div>
+function CardAbilities({ img, title, subtitle, text }) {
+  return (
+    <div class="flex items-center hover:scale-105 transition-all duration-700 ease-in-out w-80">
+      <div class="group relative mx-auto w-80 overflow-hidden border border-crimson hover:border-none rounded-xl bg-open dark:bg-closed p-px transition-all duration-300 ease-in-out hover:bg-gradient-to-r hover:from-crimson hover:via-persimmon hover:to-tangelo hover:shadow-lg hover:shadow-gray-300 hover:dark:shadow-gray-800">
+        <div class="group-hover:animate-spin-slow invisible absolute -top-40 -bottom-40 left-10 right-10 bg-gradient-to-r from-transparent via-open/90 dark:via-closed/90 to-transparent group-hover:visible"></div>
 
-            <div className='relative grid justify-items-center place-content-start rounded-3xl p-9 bg-open dark:bg-closed'>
-                <img src={img} alt={title} className='h-16 w-16 grayscale'/>
-
-                <span className='my-1 font-nunito'>
-					<h2 className='text-center text-xl font-bold text-black text-nunito dark:text-white'>
-						{title}
-					</h2>
-
-					<h3 className='pb-2 text-center font-bold text-black text-md dark:text-white'>
-						{subtitle}
-					</h3>
-				</span>
-
-                <p className='pb-3 text-center text-gray-600 font-ptSans dark:text-gray-400'>
-                    {text}
-                </p>
-            </div>
+        <div class="relative rounded-xl bg-open dark:bg-closed p-7 h-[30rem]">
+          <div class="flex flex-col content-center items-center justify-center gap-7">
+            <img
+              src={img}
+              alt="Logo"
+              className="w-fit drop-shadow-xl"
+            />
+            <p class="text-xl font-semibold text-slate-900 dark:text-slate-300">
+              {title}
+            </p>
+            <p class="text-lg font-semibold text-slate-800 dark:text-slate-400">
+              {subtitle}
+            </p>
+            <p class="text-slate-700 dark:text-slate-500">{text}</p>
+          </div>
         </div>
-    );
+      </div>
+    </div>
+  );
 }
 
 export default CardAbilities;

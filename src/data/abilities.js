@@ -6,7 +6,7 @@ export default [
 	{
 		img:xd,
 		title: "UX/UI",
-		subtitle: "Design",
+		subtitle: "Designer",
 		description:
 			"Produce products that offer users rich, relevant experiences. The entire process of acquiring and integrating the development, including elements of branding, design, usability, and function, is designed through the use of user experience (UX) principles.",
 	},
