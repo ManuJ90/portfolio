@@ -8,7 +8,7 @@ export default [
   {
     id: 1,
     title: "Outside The Cube",
-    time: "March 2022 - Current",
+    time: "March 2022 - November 2022",
     p1: "As a front-end developer, my main responsibilities are to assist senior developers with creating layouts for web pages and to implement React Hooks to achieve specific behaviors on the page.",
     p2: "Additionally, we worked on an automation framework for an international client using Cypress.io. To improve the integration between manual QA, automated QA, and the client, we are creating test cases using gherkins and Cucumber.",
     icon: web,

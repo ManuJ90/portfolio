@@ -23,6 +23,8 @@ module.exports = {
         neon: "#39FF14",
         neon2: "#3FFF00",
         spring: "#00F0A8",
+        richGray: "#1F2022",
+        platinum: "#E5E4E2",
       },
       fontFamily: {
         nunito: ["Nunito", "serif"],

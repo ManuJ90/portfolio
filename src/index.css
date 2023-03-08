@@ -27,8 +27,8 @@
 .nav {
     z-index: 100;
     background: rgba(142, 142, 142, 0.1);
-    backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
 }
 
 .canvas {

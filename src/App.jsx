@@ -6,6 +6,7 @@ import Footer from "./components/Footer.component.jsx";
 import HeroSection from "./pages/HeroSection.page.jsx";
 import AboutMe from "./pages/AboutMe.page.jsx";
 import ContactMe from "./pages/ContactMe.page.jsx";
+import TimeLine from "./components/TimeLine.component";
 import Abilities from "./pages/Abilities.page.jsx";
 import Navigation from "./components/Navigation.component.jsx";
 
@@ -51,12 +52,12 @@ function App() {
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
-              stroke-width="1.5"
+              strokeWidth="1.5"
               stroke="currentColor"
-              class="w-8 h-8 group-hover:hidden">
+              className="w-8 h-8 group-hover:hidden">
               <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeLinecap="round"
+                strokeLinejoin="round"
                 d="M9 12.75l3 3m0 0l3-3m-3 3v-7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
               />
             </svg>
@@ -82,6 +83,7 @@ function App() {
         <div className="container mx-auto grid w-11/12 max-w-5xl gap-20">
           <HeroSection />
           <Abilities />
+          <TimeLine/>
           <AboutMe />
           <ContactMe />
         </div>
