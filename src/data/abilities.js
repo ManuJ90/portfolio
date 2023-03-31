@@ -1,5 +1,5 @@
-import xd from "../assets/technologies/adobeXD.webp"
-import web from "../assets/technologies/webDesign.webp"
+import xd from "../assets/technologies/study.webp"
+import web from "../assets/technologies/web.webp"
 import front from "../assets/technologies/code.webp"
 
 export default [
