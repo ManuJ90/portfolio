@@ -82,9 +82,9 @@ function App() {
       <div className="cursor-default overflow-hidden antialiased bg-open dark:bg-closed">
         <div className="container mx-auto grid w-11/12 max-w-5xl gap-20">
           <HeroSection />
+          <AboutMe />
           <Abilities />
           <TimeLine/>
-          <AboutMe />
           <ContactMe />
         </div>
         <Footer />
