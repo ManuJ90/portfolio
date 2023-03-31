@@ -7,7 +7,6 @@ function CardAbilities({ img, title, subtitle, text }) {
     <h2 className="font-bold">{title}</h2>
     <h4 className="font-medium">{subtitle}</h4>
     <p className="text-center font-light">{text}</p>
-    hola
    </div>
   );
 }
