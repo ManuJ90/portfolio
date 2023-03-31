@@ -91,7 +91,7 @@ function ContactMe() {
               </div>
               <div className="flex justify-end">
                 <div className="relative mt-8 w-fit group">
-                  <div className="absolute -inset-0.5 bg-gradient-to-r from-bittersweet via-tangelo to-persimmon opacity-70 rounded-lg blur-sm group-active:blur-md transition duration-1000 group-active:duration-200 group-active:-inset-1 animate-tilt"></div>
+                  <div className="absolute -inset-0.5 bg-gradient-to-r from-lava via-imperial to-scarlet opacity-70 rounded-lg blur-sm group-active:blur-md transition duration-1000 group-active:duration-200 group-active:-inset-1 animate-tilt"></div>
                   <button
                     type="submit"
                     className="relative w-full rounded-lg bg-white px-7 py-2 font-bold uppercase text-black font-nunito leadin-none dark:bg-black dark:text-white">

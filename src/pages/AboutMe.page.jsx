@@ -7,9 +7,9 @@ function AboutMe() {
       <SectionTitle>About Me</SectionTitle>
 
       <div className="relative p-9">
-        <div className="absolute top-0 left-0 m-auto h-56 w-96 rounded-full mix-blend-darken blur-2xl filter bg-persimmon dark:bg-orangeRed animate-blob animation-delay-500 dark:mix-blend-lighten"></div>
-        <div className="absolute right-0 bottom-0 h-56 w-96 rounded-full mix-blend-darken blur-2xl filter bg-bittersweet dark:bg-international animate-blob animation-delay-6000 dark:mix-blend-lighten"></div>
-        <div className="absolute top-0 right-0 bottom-0 left-0 m-auto h-56 w-96 rounded-full mix-blend-darken blur-2xl filter bg-tangelo dark:bg-orangeFruit animate-blob animation-delay-1000 dark:mix-blend-lighten"></div>
+        <div className="absolute top-0 left-0 m-auto h-56 w-96 rounded-full mix-blend-darken blur-2xl filter bg-air dark:bg-lava animate-blob animation-delay-500 dark:mix-blend-lighten"></div>
+        <div className="absolute right-0 bottom-0 h-56 w-96 rounded-full mix-blend-darken blur-2xl filter bg-air dark:bg-lava animate-blob animation-delay-6000 dark:mix-blend-lighten"></div>
+        <div className="absolute top-0 right-0 bottom-0 left-0 m-auto h-56 w-96 rounded-full mix-blend-darken blur-2xl filter bg-air dark:bg-lava animate-blob animation-delay-1000 dark:mix-blend-lighten"></div>
 
         <div className="relative flex flex-col gap-6">
           <p className="dark:text-white">
