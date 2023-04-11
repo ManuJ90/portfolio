@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import light from "../src/assets/darkMode/light.webp";
 import dark from "../src/assets/darkMode/dark.webp";
-
 import Footer from "./components/Footer.component.jsx";
 import HeroSection from "./pages/HeroSection.page.jsx";
 import AboutMe from "./pages/AboutMe.page.jsx";
