@@ -30,9 +30,3 @@
     -webkit-backdrop-filter: blur(20px);
     backdrop-filter: blur(20px);
 }
-
-.canvas {
-    margin: 0;
-    top: 0;
-    box-sizing: border-box;
-}
