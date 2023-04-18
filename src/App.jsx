@@ -41,19 +41,22 @@ function App() {
       <div className="fixed bottom-2 lg:top-2 lg:bottom-auto right-3 z-10 flex flex-col md:flex-row gap-3 ">
         <button
           className="rounded-full bg-black p-1 transition duration-1000 dark:border-white dark:bg-white text-sm text-white dark:text-black group h-12 w-12 flex items-center justify-center"
-          aria-label="CV download button">
+          aria-label="CV download button"
+        >
           <a
-            href="https://drive.google.com/file/d/1RVKIbugGlXTAi-YGUWJrnV80UnVwAf6D/view?usp=share_link"
+            href="https://drive.google.com/file/d/1PvPlaL2k4s8wlU6GrCm-qajGpRRpO7sq/view?usp=share_link"
             target="_blank"
             className="flex flex-col justify-center"
-            aria-label="Link to my Curriculum Vitae">
+            aria-label="Link to my Curriculum Vitae"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
               strokeWidth="1.5"
               stroke="currentColor"
-              className="w-8 h-8 group-hover:hidden">
+              className="w-8 h-8 group-hover:hidden"
+            >
               <path
                 strokeLinecap="round"
                 strokeLinejoin="round"
@@ -69,7 +72,8 @@ function App() {
           type="button"
           aria-label="dark mode button"
           onClick={handleTheme}
-          className="rounded-full bg-black p-1 transition duration-1000 flex items-center justify-center dark:border-white dark:bg-white h-12 w-12">
+          className="rounded-full bg-black p-1 transition duration-1000 flex items-center justify-center dark:border-white dark:bg-white h-12 w-12"
+        >
           {theme === "dark" ? (
             <img src={light} alt="" className="h-8 w-8" />
           ) : (
@@ -83,7 +87,7 @@ function App() {
           <HeroSection />
           <Abilities />
           <AboutMe />
-          <TimeLine/>
+          <TimeLine />
           <ContactMe />
         </div>
         <Footer />
